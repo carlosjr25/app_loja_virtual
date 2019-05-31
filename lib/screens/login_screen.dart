@@ -116,7 +116,9 @@ class _LoginScreenState extends State<LoginScreen> {
                       textColor: Colors.white,
                       color: Theme.of(context).primaryColor,
                       onPressed: () {
-                        if (_formKey.currentState.validate()) {}
+                        if (_formKey.currentState.validate()) {
+
+                        }
                         model.signIn(
                           email: _emailController.text,
                           pass: _passController.text,
